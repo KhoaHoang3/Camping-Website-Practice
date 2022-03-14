@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  background-color: #f8e1db;
+}
+
+.header .header_1 {
+  padding: 15px 0 15px 0;
+}
+
+.header .navbar .container {
+  padding-bottom: 15px;
+}
+
+.header .navbar .container a {
+  padding-right: 15px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.header .navbar .container a:hover {
+  color: red;
+}
+
+/* -------------- SLIDER PART ------------ */
+.slider {
+  background-image: url(../img/BG.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+/* ---------- EXPLORE ------------- */
+
+.explore {
+  background-color: #faf4f2;
+}
+
+.explore .container {
+  padding: 80px 0 20px 0;
+  text-align: center;
+}
+
+.explore .container h1 {
+  padding-top: 15px;
+  color: #8e8e8e;
+  font-size: 40px;
+}
+
+/* ------------- CAMPING CONTENT ------------- */
+
+.camping {
+  background-color: #faf4f2;
+  padding-right: 290px;
+  padding-bottom: 30px;
+}
+
+.camping .container .list {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.camping .container .list .item {
+  padding: 15px 15px;
+}
+
+.camping .container .list .item .content {
+  background-color: white;
+  padding: 50px 40px;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+}
+
+.camping .container .list .item .content img,
+.camping .container .list .item .content h2 {
+  margin-bottom: 15px;
+}
+
+.camping .container .list .item .content p {
+  padding-bottom: 40px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.camping .container .list .item .content img {
+  border-radius: 20px;
+}
+
+.camping .container .list .item .content a {
+  background-color: #e8e8e8;
+  padding: 20px 40px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #a8a8a8;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.camping .container .list .item .content i {
+  position: absolute;
+  top: 88px;
+  right: 65px;
+  color: red;
+  font-size: 20px;
+  background-color: rgb(234 211 221);
+  padding: 12px 12px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.camping .container .btn {
+  text-align: center;
+  transform: translateX(150px);
+}
+
+.camping .container .btn .viewall {
+  padding: 20px 80px;
+  background-color: transparent;
+  color: #efa492;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 200px;
+  border: 2px solid #efa492;
+
+}
