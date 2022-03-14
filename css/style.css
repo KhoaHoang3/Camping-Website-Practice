@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{ 
+  background-color: #faf4f2;
+}
+
 .container {
   max-width: 1280px;
   margin: auto;
@@ -65,7 +69,7 @@
 .camping {
   background-color: #faf4f2;
   padding-right: 290px;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
 }
 
 .camping .container .list {
@@ -102,7 +106,7 @@
 
 .camping .container .list .item .content a {
   background-color: #e8e8e8;
-  padding: 20px 40px;
+  padding: 15px 40px;
   border-radius: 15px;
   text-decoration: none;
   color: #a8a8a8;
@@ -128,7 +132,7 @@
 }
 
 .camping .container .btn .viewall {
-  padding: 20px 80px;
+  padding: 15px 80px;
   background-color: transparent;
   color: #efa492;
   font-size: 20px;
@@ -136,5 +140,106 @@
   font-weight: bold;
   border-radius: 200px;
   border: 2px solid #efa492;
+}
 
+/* ------------ CONTACT ------------ */
+.contact {
+  display: flex;
+  background-color: #f8e1db;
+  position: relative;
+}
+
+.contact .img {
+  position: relative;
+  width: 50%;
+}
+
+.contact .img .background {
+  width: 1000px;
+  height: 360px;
+}
+
+.contact .img .home {
+  position: absolute;
+  top: 5px;
+  left: 236px;
+}
+
+.contact .info {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+}
+
+.contact .info h1,
+.contact .info p {
+  color: #979594;
+  line-height: 40px;
+}
+
+.contact .info h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.contact .info p {
+  font-size: 20px;
+}
+
+.contact .info .apps {
+  display: flex;
+}
+
+.contact .info .apps h2 {
+  padding-bottom: 20px;
+  color: #979594;
+}
+
+.contact .info .apps .follow i {
+  color: #e76f51;
+  font-size: 30px;
+  padding-right: 12px;
+}
+
+/* ---------- INFO -------------- */
+
+.info_1 {
+  background-color: #f8e1db;
+  margin-top: 80px;
+  border-top-left-radius: 112px;
+  border-top-right-radius: 112px;
+}
+
+.info_1 .container .list {
+  display: flex;
+}
+
+.info_1 .container .list .item {
+  padding-right: 40px;
+  padding-top: 50px;
+}
+
+.info_1 .container .list .item h1,
+.info_1 .container .list .item p,
+.info_1 .container .list .item a {
+  color: #3c3836;
+}
+
+.info_1 .container .list .item p{ 
+  line-height: 35px;
+}
+
+.info_1 .container .list .item a{ 
+  text-decoration: none;
+  line-height: 35px;
+}
+
+.info_1 .container .list .item-1 {
+  width: 50%;
+}
+
+.info_1 .container .list .item-1 h1 {
+  padding-bottom: 20px;
 }
